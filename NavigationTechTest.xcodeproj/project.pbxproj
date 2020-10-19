@@ -28,6 +28,7 @@
 		9EA3289224ED220F004DB12B /* PurpleNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3288624ED220F004DB12B /* PurpleNavigation.swift */; };
 		9EA3289324ED220F004DB12B /* FluffyFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA3288724ED220F004DB12B /* FluffyFilters.swift */; };
 		9EEDF4DD253DAE2D00E6A560 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEDF4DC253DAE2D00E6A560 /* ServiceManager.swift */; };
+		9EEDF4ED253DC8A300E6A560 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEDF4EC253DC8A300E6A560 /* LoadingView.swift */; };
 		A2C1FD9D82D6081BB02DE76C /* Pods_NavigationTechTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FDC11074B1B262D497F1CF2 /* Pods_NavigationTechTest.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,7 @@
 		9EA3288624ED220F004DB12B /* PurpleNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurpleNavigation.swift; sourceTree = "<group>"; };
 		9EA3288724ED220F004DB12B /* FluffyFilters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluffyFilters.swift; sourceTree = "<group>"; };
 		9EEDF4DC253DAE2D00E6A560 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		9EEDF4EC253DC8A300E6A560 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		B3D59D4F51B3D15C1615A932 /* Pods-NavigationTechTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTechTestTests.release.xcconfig"; path = "Target Support Files/Pods-NavigationTechTestTests/Pods-NavigationTechTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		BC9576A0918403ED3A63E606 /* Pods-NavigationTechTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationTechTestTests.debug.xcconfig"; path = "Target Support Files/Pods-NavigationTechTestTests/Pods-NavigationTechTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -163,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				9EA3280924EC3DCF004DB12B /* ViewController.swift */,
+				9EEDF4EC253DC8A300E6A560 /* LoadingView.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				9EA3280A24EC3DCF004DB12B /* ViewController.swift in Sources */,
 				9EA3289324ED220F004DB12B /* FluffyFilters.swift in Sources */,
 				9EA3288924ED220F004DB12B /* Welcome.swift in Sources */,
+				9EEDF4ED253DC8A300E6A560 /* LoadingView.swift in Sources */,
 				9EA3288E24ED220F004DB12B /* PurpleFilters.swift in Sources */,
 				9EA3288C24ED220F004DB12B /* NavChild.swift in Sources */,
 				9EA3289124ED220F004DB12B /* Nav.swift in Sources */,

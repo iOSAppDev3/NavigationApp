@@ -18,7 +18,6 @@ class ServiceManager {
          switch response.result {
          case .success(_):
               do {
-                print(response)
                 let resp = try JSONDecoder().decode(Welcome.self, from: response.data!)
                 completion(resp, nil)
               } catch{

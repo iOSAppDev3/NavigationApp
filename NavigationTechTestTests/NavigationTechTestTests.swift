@@ -11,7 +11,8 @@ import XCTest
 
 class NavigationTechTestTests: XCTestCase {
 
-    /// Integration test for Navigation api call
+    
+    // Test for Navigation api call
     func testGetNavigationApi() {
         let e = expectation(description: "Get the results of navigation api")
         ServiceManager().fetchNavigationAPI() {

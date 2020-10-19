@@ -252,8 +252,11 @@ extension ViewController {
 
 extension ViewController {
     
-    /// API request to get the json
+    /// Handling API request all  to get the json using fetchNanvigationAPI method from ServiceManager
     func getNavigationAPI() {
+        DispatchQueue.main.async {
+            self.showSpinner(onView: self.view)
+        }
         ServiceManager().fetchNavigationAPI() {
             (resp, error) in
             if resp != nil {
@@ -263,6 +266,9 @@ extension ViewController {
             } else {
                 print("Error json")
             }
+        }
+        DispatchQueue.main.async {
+            self.removeSpinner()
         }
     }
 }
